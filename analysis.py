@@ -5,7 +5,7 @@ import seaborn as sns
 import numpy as np
 
 nobel = pd.read_csv('/Users/viragnemeth/Projects/Python/Brief-Analysis-of-Nobel-Prize-Winners/nobel.csv')
-print(nobel.columns)
+#print(nobel.columns)
 
 # What is the most commonly awarded gender and birth country?
 top_gender = nobel['sex'].value_counts().index[0]
